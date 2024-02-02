@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Randl's website</title>
+        <style>
+            body {
+                margin: 20px; /* 设置全局边距 */
+                padding: 0;
+                background: url('beijing.png') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            #textContainer {
+                position: absolute;
+                top: 0; /* 调整位置 */
+                left: 0; /* 调整位置 */
+                width: calc(100% - 40px); /* 减去全局边距 */
+                height: calc(100% - 40px); /* 减去全局边距 */
+                color: rgb(141, 26, 26);
+                font-size: 25px;
+                opacity: 0.5;
+                word-wrap: break-word;
+                overflow: auto;
+            }
+
+            /* ... 其他样式保持不变 ... */
+
+            img {
+                position: fixed;
+                top: 25px; /* 调整位置，加上全局边距 */
+                right: 25px; }
+            #title {
+                position: absolute;
+                top: 47.5%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 80px;
+                font-family: 'Cursive';
+                color: rgb(240, 132, 105);
+                background-color: #302121;
+                opacity: 0.9;
+                padding: 10px;
+                border-radius: 15px;
+                z-index: 999;
+                cursor: pointer;
+            }
+
+            img {
+                position: fixed;
+                top: 5px;
+                right: 5px;
+                width: 1000px;
+                opacity: .9;
+                border-radius: 20px 60px 40px 10px;
+                background-size: 100%;
+            }
+
+            video {
+                position: absolute;
+                width: 20vw;
+                top: 50vh;
+                right: 80vh;
+                border-radius: 0%;
+                z-index: 10;
+                left: 3vw;
+                transition: all 0.3s ease;
+            }
+
+            video:hover {
+                width: 40vw;
+                opacity: 0.5;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background: url('beijing.png') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            .runofthe {
+                color:rgb(255, 117, 117);
+                font-family: Garamond;
+            }
+
+            #goingto {
+                position: fixed;
+                font-size: 7vw;
+                top:30vh;
+                left: 10vw;
+                z-index:100;
+                line-height: 9vw;
+                font-style: italic;
+            }
+
+            #grow:hover {
+                font-family: Garamond;
+                letter-spacing: -9vw;
+                border-right: 3vw rgb(168, 172, 173) dashed;
+                width: 100vw;
+            }
+
+            #grow {
+                transition: letter-spacing 6s;
+            }
+
+            #wont {
+                transition: border-right 3s;
+            }
+
+            #wont:hover {
+                font-family: Helvetica;
+                border-right: 3vw rgb(57, 139, 145) dashed;
+            }
+
+            .ow {
+                text-shadow: 1vh 1vh 3vh orange;
+            }
+            .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(0);
+    animation: ripple-animation 1s linear;
+    pointer-events: none;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0.5;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <!-- 标题元素 -->
+        <div id="title"> Art Exhibit</div>
+        <!-- 文本容器 -->
+        <div id="textContainer">
+            <!-- 文本内容 -->
+            <p>Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit. Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.Randal's Polka Dot Art Exhibit.
+                
+            </p>
+           
+        </div>
+        <!-- 图片和视频 -->
+        <img id="right" src="right.png">
+        <img id="ball" src="ball.gif">
+        <img id="air" src="air.gif">
+        <video loop id="audio1" src="888.mp3"></video>
+        <video loop id="audio2" src="pop.mp4"></video>
+        <div class="runofthe" id="goingto">
+            <span id="wont">Randal's Polka Dot Art Exhibit</span>
+            <span id="grow">Randal's Polka Dot Art Exhibit</span>
+        </div>
+
+        <script>
+            // JavaScript 代码
+            const title = document.getElementById('title');
+            title.addEventListener('click', function() {
+                title.style.transform = 'scale(1.1) rotate(10deg)';
+                setTimeout(() => {
+                    title.style.transform = '';
+                    title.style.color = '#CCCCFF';
+                }, 500);
+            });
+
+            const videos = document.querySelectorAll('video');
+            videos.forEach(video => {
+                video.addEventListener('mouseenter', () => {
+                    video.play();
+                });
+                video.addEventListener('mouseleave', () => {
+                    video.pause();
+                });
+            });
+            document.getElementById('textContainer').addEventListener('mousemove', function(e) {
+    const ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    ripple.style.width = ripple.style.height = '100px';
+    ripple.style.left = e.offsetX - 50 + 'px';
+    ripple.style.top = e.offsetY - 50 + 'px';
+    this.appendChild(ripple);
+
+    setTimeout(() => {
+        ripple.remove();
+    }, 1000);
+});
+        </script>
+    </body>
+</html>
